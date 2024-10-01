@@ -1,5 +1,5 @@
 using System;
-class Principal{
+class Aula07{
     static void Main (){
         const string canal="Isabele Torres";
         const double pi=3.1415;
