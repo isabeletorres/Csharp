@@ -1,6 +1,6 @@
 // IF
 using System;
-class Principal{
+class Aula12{
     static void Main (){
 
         int nota1, nota2, nota3, nota4, res;
