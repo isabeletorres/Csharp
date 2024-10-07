@@ -2,10 +2,22 @@ using System;
 //classes compostos por membros(variáveis e funções)
 
 public class Jogador{
+    public int energia=100;
+    public bool vivo= true;
+
     
 }
 class Aula28{
+    static void Main(){
+        Jogador j1 = new Jogador();
+        Jogador j2 = new Jogador();
+        Jogador j3 = new Jogador();
 
+        j1.energia = 50;
+        
+        Console.WriteLine("Energia do jogador1: {0}", j1.energia );
+        Console.WriteLine("Energia do jogador12: {0}", j1.energia );
+    }
 }
 /* Corpo da classe
 [ModificadorClasse] class NOME_DA_CLASS{
